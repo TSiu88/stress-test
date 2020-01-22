@@ -10,12 +10,59 @@
   <body>
     <div class="container">
       <h1>Stress Test</h1>
+      <h4>Please check all that apply to see your stress results.</h4>
       <form id="form1">
+        <div class="form-group">
+          <p>Check all warning signs of stress that apply to you:</p>
+          <input type="checkbox" name="warningSigns" id="sleep">Loss of sleep.<br>
+          <input type="checkbox" name="warningSigns" id="overwhelmed">Feeling overwhelmed. <br>
+          <input type="checkbox" name="warningSigns" id="shaky">Feeling jittery or shaky. <br>
+          <input type="checkbox" name="warningSigns" id="tense">Tense muscles <br>
+        </div>
 
+        <div class="form-group">
+          <p>Check all physical symptoms that apply to you:</p>
+          <input type="checkbox" name="symptoms" id="hbp">High blood pressure. <br>
+          <input type="checkbox" name="symptoms" id="hair">Loss of hair. <br>
+          <input type="checkbox" name="symptoms" id="anxiety">Anxiety. <br>
+          <input type="checkbox" name="symptoms" id="panic">Panic attacks. <br>
+          <input type="checkbox" name="symptoms" id="headache">Headaches <br>
+        </div>
+
+        <div class="form-group">
+          <p>Check all coping methods you use:</p>
+          <input type="checkbox" name="coping" id="meditate">Meditation <br>
+          <input type="checkbox" name="coping" id="time">Time management <br>
+          <input type="checkbox" name="coping" id="pets">Pet your pet <br>
+          <input type="checkbox" name="coping" id="breaks">Take time for breaks <br>
+          <input type="checkbox" name="coping" id="help">Ask for help when needed <br>
+        </div>
+
+        <button type="submit">Submit</button>
       </form>
 
       <div id="results">
         <h2>Here are your results:</h2>
+        <div id="healthy">
+          <h3>Doing Good!</h3>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div id="moderate">
+          <h3>Here's some possible coping methods to help you:</h3>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div id="serious">
+          <h3>You seem to be very stressed.  Here are some suggestions for you:</h3>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
 
       </div>
     </div>
